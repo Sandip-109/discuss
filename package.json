@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/core": "^0.37.4",
+    "@auth/prisma-adapter": "^2.7.4",
     "@nextui-org/react": "^2.6.11",
+    "@prisma/client": "^6.2.1",
     "framer-motion": "^11.16.4",
     "next": "15.1.4",
+    "next-auth": "^5.0.0-beta.25",
+    "prisma": "^6.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
