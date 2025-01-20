@@ -8,7 +8,11 @@ export default function SearchInput() {
   const searchParams = useSearchParams();
   return (
     <form action={actions.search}>
-      <Input name="term" defaultValue={searchParams.get("term") || ""} />
+      <Input
+        name="term"
+        placeholder="Search"
+        defaultValue={searchParams.get("term") || ""}
+      />
     </form>
   );
 }

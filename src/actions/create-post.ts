@@ -23,7 +23,7 @@ interface CreatePostFormState {
 
 export async function createPost(
   slug: string,
-  formState: CreatePostFormState,
+  _formState: CreatePostFormState,
   formData: FormData
 ): Promise<CreatePostFormState> {
   const result = createPostSchema.safeParse({
